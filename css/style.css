@@ -54,4 +54,13 @@
 
 .show{
     display: block;
+    justify-content: center;
+}
+
+#sems1{
+    justify-content: center;
+}
+
+#sems2{
+    justify-content: center;
 }
