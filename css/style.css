@@ -115,3 +115,7 @@ table{
 #opt{
     width: 40%;
 }
+
+tr{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
