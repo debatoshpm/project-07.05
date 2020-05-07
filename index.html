@@ -16,13 +16,30 @@
 
 <body>
     <div class="container">
-        <p id="guest">Hi Guest!</p>
+        <div class="row d-flex justify-content-between">
+            <p class="guest">Hi Guest!</p>
+            <ul class="navbar-nav btn btn-danger p-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle guest text-white" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Login
+                    </a>
+                    <div class="dropdown-menu p-3">
+                        <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                            <input class="form-control login" type="text" name="username2" placeholder="Username">
+                            <input class="form-control login" type="text" name="password2" placeholder="Password">
+                            <input class="btn btn-primary" type="button" name="submit" value="Login">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <div id="bar-bottom" class="fluid-container">
         <div id="bar-top" class="container">
             <div class="nav nav-pills justify-content-center navbar-fixed-top">
-                <a class="nav-link " href="#">Home</a>
-                <a class="nav-link active" href="#">Resources</a>
+                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link " href="#">Resources</a>
                 <a class="nav-link " href="#">Ask Question</a>
                 <a class="nav-link " href="#">Workshops</a>
             </div>
@@ -79,36 +96,48 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header bg-primary text-white text-center">
-                        Featured
+                        Physics
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="subject.html" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-title">Paper Code: BS-PH101<br><br>Credit Points: 4</h6>
+                        <a href="subject.html" class="btn btn-primary btn-sm">Syllabus</a>
+                        <a href="subject.html" class="btn btn-info btn-sm">Study Notes</a>
+                        <a href="subject.html" class="btn btn-success btn-sm">Question Paper</a>
+                        <br><br>
+                        <a href="subject.html" class="btn btn-warning btn-sm">Video</a>
+                        <a href="subject.html" class="btn btn-danger btn-sm">Suggestions</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header bg-primary text-white text-center">
-                        Featured
+                        Mathematics
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="subject.html" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-title">Paper Code: BS-M101<br><br>Credit Points: 4</h6>
+                        <a href="subject.html" class="btn btn-primary btn-sm">Syllabus</a>
+                        <a href="subject.html" class="btn btn-info btn-sm">Study Notes</a>
+                        <a href="subject.html" class="btn btn-success btn-sm">Question Paper</a>
+                        <br><br>
+                        <a href="subject.html" class="btn btn-warning btn-sm">Video</a>
+                        <a href="subject.html" class="btn btn-danger btn-sm">Suggestions</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header bg-primary text-white text-center">
-                        Featured
+                        Basic Electrical Engineering
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="subject.html" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-title">Paper Code: ES-EE101<br><br>Credit Points: 4</h6>
+                        <a href="subject.html" class="btn btn-primary btn-sm">Syllabus</a>
+                        <a href="subject.html" class="btn btn-info btn-sm">Study Notes</a>
+                        <a href="subject.html" class="btn btn-success btn-sm">Question Paper</a>
+                        <br><br>
+                        <a href="subject.html" class="btn btn-warning btn-sm">Video</a>
+                        <a href="subject.html" class="btn btn-danger btn-sm">Suggestions</a>
                     </div>
                 </div>
             </div>
@@ -117,37 +146,49 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        Featured
+                    <div class="card-header bg-success text-white text-center">
+                        Physics-I Laboratory
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="subject.html" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-title">Paper Code: BS-PH191<br><br>Credit Points: 2</h6>
+                        <a href="subject.html" class="btn btn-primary btn-sm">Syllabus</a>
+                        <a href="subject.html" class="btn btn-info btn-sm">Study Notes</a>
+                        <a href="subject.html" class="btn btn-success btn-sm">Question Paper</a>
+                        <br><br>
+                        <a href="subject.html" class="btn btn-warning btn-sm">Video</a>
+                        <a href="subject.html" class="btn btn-danger btn-sm">Suggestions</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        Featured
+                    <div class="card-header bg-success text-white text-center">
+                        Basic Electrical Engineering Laboratory
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="subject.html" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-title">Paper Code: ES-EE191<br><br>Credit Points: 1</h6>
+                        <a href="subject.html" class="btn btn-primary btn-sm">Syllabus</a>
+                        <a href="subject.html" class="btn btn-info btn-sm">Study Notes</a>
+                        <a href="subject.html" class="btn btn-success btn-sm">Question Paper</a>
+                        <br><br>
+                        <a href="subject.html" class="btn btn-warning btn-sm">Video</a>
+                        <a href="subject.html" class="btn btn-danger btn-sm">Suggestions</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-header bg-primary text-white text-center">
-                        Featured
+                    <div class="card-header bg-success text-white text-center">
+                        Workshop/Manufacturing Practices
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="subject.html" class="btn btn-primary">Go somewhere</a>
+                        <h6 class="card-title">Paper Code: ES-ME192<br><br>Credit Points: 3</h6>
+                        <a href="subject.html" class="btn btn-primary btn-sm">Syllabus</a>
+                        <a href="subject.html" class="btn btn-info btn-sm">Study Notes</a>
+                        <a href="subject.html" class="btn btn-success btn-sm">Question Paper</a>
+                        <br><br>
+                        <a href="subject.html" class="btn btn-warning btn-sm">Video</a>
+                        <a href="subject.html" class="btn btn-danger btn-sm">Suggestions</a>
                     </div>
                 </div>
             </div>
@@ -159,8 +200,8 @@
     <div id="bar-bottom" class="fluid-container">
         <div id="bar-top" class="container">
             <div class="nav nav-pills justify-content-center fixed-bottom" id="lastbar">
-                <a class="nav-link " href="#">Home</a>
-                <a class="nav-link active" href="#">Resources</a>
+                <a class="nav-link " href="#">About US</a>
+                <a class="nav-link " href="#">Colleges</a>
                 <a class="nav-link " href="#">Ask Question</a>
                 <a class="nav-link " href="#">Workshops</a>
             </div>

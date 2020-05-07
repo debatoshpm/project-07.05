@@ -66,7 +66,7 @@
     justify-content: center;
 }
 
-#guest{
+.guest{
     padding: 5px 0;
     margin-bottom: 0;
 }
@@ -95,4 +95,9 @@ hr{
     padding-top: 20px;
     text-align: center;
     justify-content: center;
+}
+
+#loc{
+    font-size: 20px;
+    padding-top: 20px;
 }

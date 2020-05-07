@@ -16,12 +16,29 @@
 
 <body>
     <div class="container">
-        <p id="guest">Hi Guest!</p>
+        <div class="row d-flex justify-content-between">
+            <p class="guest">Hi Guest!</p>
+            <ul class="navbar-nav btn btn-danger p-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle guest text-white" href="http://example.com" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login
+                    </a>
+                    <div class="dropdown-menu p-3">
+                        <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                            <input class="form-control login" type="text" name="username2" placeholder="Username">
+                            <input class="form-control login" type="text" name="password2" placeholder="Password">
+                            <input class="btn btn-primary" type="button" name="submit" value="Login">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <div id="bar-bottom" class="fluid-container">
         <div id="bar-top" class="container">
             <div class="nav nav-pills justify-content-center navbar-fixed-top">
-                <a class="nav-link " href="#">Home</a>
+                <a class="nav-link " href="index.html">Home</a>
                 <a class="nav-link active" href="#">Resources</a>
                 <a class="nav-link " href="#">Ask Question</a>
                 <a class="nav-link " href="#">Workshops</a>
@@ -40,6 +57,9 @@
     <hr>
 
     <div class="container">
+        <div class="row" id="loc">
+            <p>Home/Study Resources</p>
+        </div>
         <div class="row" id="sub">
             <p>Subject (0000)</p>
         </div>
@@ -49,19 +69,19 @@
                 <p><i class="fas fa-caret-down"></i></p>
             </div>
             <div class="col-md text-center">
-                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(2)">Syllabus</a>
+                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(2)">Study Material</a>
                 <p><i class="fas fa-caret-down"></i></p>
             </div>
             <div class="col-md text-center">
-                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(3)">Syllabus</a>
+                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(3)">Video Tutorial</a>
                 <p><i class="fas fa-caret-down"></i></p>
             </div>
             <div class="col-md text-center">
-                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(4)">Syllabus</a>
+                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(4)">Question Paper</a>
                 <p><i class="fas fa-caret-down"></i></p>
             </div>
             <div class="col-md text-center">
-                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(5)">Syllabus</a>
+                <a href="#one" data-toggle="tab" class="btn" onclick="pbar(5)">Suggestions</a>
                 <p><i class="fas fa-caret-down"></i></p>
             </div>
         </div>
@@ -90,13 +110,26 @@
         </div>
     </div>
 
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <table>
+                <tr>
+                    <th>Chapter</th>
+                    <th>Option</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
     <br><br><br>
 
     <div id="bar-bottom" class="fluid-container">
         <div id="bar-top" class="container">
             <div class="nav nav-pills justify-content-center fixed-bottom" id="lastbar">
-                <a class="nav-link " href="#">Home</a>
-                <a class="nav-link active" href="#">Resources</a>
+                <a class="nav-link " href="#">About US</a>
+                <a class="nav-link " href="#">Colleges</a>
                 <a class="nav-link " href="#">Ask Question</a>
                 <a class="nav-link " href="#">Workshops</a>
             </div>
