@@ -83,7 +83,7 @@
     font-size: 30px;
 }
 
-hr{
+#line{
     height: 2px;
     padding: 0;
     margin: 0;
@@ -100,4 +100,18 @@ hr{
 #loc{
     font-size: 20px;
     padding-top: 20px;
+}
+
+table{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#chap{
+    width: 60%;
+}
+
+#opt{
+    width: 40%;
 }
