@@ -5,6 +5,7 @@
 #middle{
     background-color: #6ed3cf;
     height: 400px;
+    background-image: url(https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif);
 }
 
 #bar-bottom{
@@ -62,5 +63,36 @@
 }
 
 #sems2{
+    justify-content: center;
+}
+
+#guest{
+    padding: 5px 0;
+    margin-bottom: 0;
+}
+
+#lastbar{
+    background-color: #8bf0ba;
+}
+
+.heading{
+    background-color: #deeaee;
+    padding: 0;
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+hr{
+    height: 2px;
+    padding: 0;
+    margin: 0;
+    background-color: #b1cbbb;
+}
+
+#sub{
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
     justify-content: center;
 }
